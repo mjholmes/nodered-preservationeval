@@ -7,6 +7,6 @@ The preservation evaluation code was taken from the [Dew point calulator](http:/
  - http://www.dpcalc.org/dp.js
 
 ## Usage
-Feed in temperauture and relative humidity values (as `msg.payload`s with topics set to `temperature` and `humidity`) into the join block. Once both are recevied the calculated values will be sent the appropriate outputs.
+Copy the contents of [the `flow` file](/flow) into the clipboard then import into node-red. Feed in temperauture and relative humidity values (as `msg.payload`s with topics set to `temperature` and `humidity`) into the join block. Once both are recevied the calculated values will be sent the appropriate outputs.
 
 ![Example flow using preservation evaluation function](/flow.png)
